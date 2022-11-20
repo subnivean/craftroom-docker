@@ -10,7 +10,7 @@
 SSIP=25
 
 # Database location and query
-TEMPSDB=/awdata/ambientweather.db
+TEMPSDB=/awdata/ambientweather.sqlite
 TEMPQRY="SELECT temp1f FROM dbtable0 ORDER BY ROWID DESC LIMIT 1;"
 
 # Set temperature limits
