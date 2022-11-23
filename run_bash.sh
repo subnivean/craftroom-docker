@@ -6,5 +6,5 @@ docker run --rm -it \
   -v $SCRIPT_PATH/data:/data \
   -v /home/pi/ambientweather-docker/data/:/awdata \
   -v $SCRIPT_PATH/src:/app \
-  craftroom /bin/bash --rcfile /bashrc
+  allinone-py311 /bin/bash --rcfile /bashrc
 
